@@ -1,3 +1,5 @@
+var A = A || {};
+
 $(document).ready(function () {
     FizzBuzz2ViewModel = (function () {
         var FizzBuzz2ViewModel = function (initData) {
@@ -12,7 +14,7 @@ $(document).ready(function () {
                             return true;
                         }
                     },
-                    message: "s”‚Í1‚©‚ç1000‚Ü‚Å‚Ì’l‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢"
+                    message: "ï¿½sï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½ï¿½ï¿½1000ï¿½Ü‚Å‚Ì’lï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
                 }]
             });
             self.conditionsList = ko.mapping.fromJS([
@@ -43,16 +45,16 @@ $(document).ready(function () {
             }, self);
         }
 
-        FizzBuzz2ViewModel.prototype.addo—ÍğŒ = function () {
+        FizzBuzz2ViewModel.prototype.addï¿½oï¿½Íï¿½ = function () {
             var self = this;
 
             self.conditionsList.push(ko.mapping.fromJS({ conditionValue: null, char: "" }));
         }
 
-        FizzBuzz2ViewModel.prototype.deleteo—ÍğŒ = function (targeto—ÍğŒ) {
+        FizzBuzz2ViewModel.prototype.deleteï¿½oï¿½Íï¿½ = function (targetï¿½oï¿½Íï¿½) {
             var self = this;
             
-            self.conditionsList.remove(targeto—ÍğŒ);
+            self.conditionsList.remove(targetï¿½oï¿½Íï¿½);
         }
 
         return FizzBuzz2ViewModel;

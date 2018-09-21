@@ -1,14 +1,14 @@
-var AY = AY || {};
+var A = A || {};
 
 $(document).ready(function () {
     "use strict";
  
-    AY.viewModel = new FizzBuzz2ViewModel();
+    A.viewModel = new FizzBuzz2ViewModel();
 
         try {
-            ko.applyBindings(AY.viewModel);
+            ko.applyBindings(A.viewModel);
         } catch (e) {
             console.error(e);
-            alert("ƒf[ƒ^‚ÌƒoƒCƒ“ƒh‚É¸”s‚µ‚Ü‚µ‚½");
+            alert("ï¿½fï¿½[ï¿½^ï¿½Ìƒoï¿½Cï¿½ï¿½ï¿½hï¿½Éï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½");
         }
 });
