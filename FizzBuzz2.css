@@ -1,0 +1,73 @@
+﻿.commonFieldset{
+    display: inline-block;
+    width: 500px;
+    border: 1px solid #B3B4B2;
+    border-radius: 10px;
+}
+
+.conditionsFieldset{
+    background-color: #BFEBF7;
+}
+
+.conditions{
+    display: flex;
+    flex-direction: column;
+}
+
+.numberOfLines{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.numberOfLinesInput{
+    width: 100px;
+}
+
+.valueAndChar{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+}
+
+.valueAndCharItems{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.value{
+    display: flex;
+}
+
+.valueInput{
+    width: 100px;
+}
+
+.char{
+    display: flex;
+}
+
+.charInput{
+    width: 150px;
+}
+
+.addButton{
+    align-self: flex-end;
+}
+
+.conditionsFieldset button{
+    width: 100px;
+    height: 25px;
+
+}
+
+.outputFieldset{
+    margin-top: 20px;
+    background-color: #E7FEAD;
+}
+
+.validationMessage{
+    font-size: 12px;
+    color: red;
+    margin-left: 3px;
+}
